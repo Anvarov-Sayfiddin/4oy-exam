@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="site-header header">
+        <div class="container">
+            <div class="header-wrapper">
+                <a href="./index.html">
+                    <img src="./images/Logo.svg" alt="Logo">
+                </a>
+                <button class="header-button">Register</button>
+            </div>
+        </div>
+    </header>
+    
+    <main class="site-main pt-5">
+        <section>
+            <div class="container">
+                <form class="form w-50  border rounded p-3  mx-auto">
+                    <h2 class="form-title fs-2 text-center mt-1 mb-4">Welcome</h2>
+                    <p class="form-text text-center">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quam duis vitae curabitur amet, fermentum lorem. </p>
+                    <div class="wrapperr">
+                        <label class="input-label">First name</label>
+                        <input class="input-name form-control  mb-4 w-50" type="text" name="name" placeholder="Your name">
+                        <span class="form-span fs-9 text-danger position-absolute d-none">Error name</span>
+                        <div class="wper">
+                            <label class="input-label">Last </label>
+                        </div>
+                        <input class="input-last__name form-control  mb-4 w-50" type="text" name="telephone" placeholder="Your last name">
+                        <span class="spann fs-9 text-danger position-absolute d-none">Error last name</span>   
+                    </div>
+                    <input class="input-email form-control  mb-4" type="email"  placeholder="EMAIL">
+                    <span class="span2 fs-9 text-danger position-absolute d-none">Error email</span>
+                    <button class="buttonn"></button>
+                    <input class="input-password form-control mb-4 w-100" type="password" placeholder="password">
+                    <span class="span4 fs-9 text-danger position-absolute d-none">Error password</span>
+                    <input class="last-password form-control mb-4 w-100" type="password" placeholder="Repeat password">
+                    <span class="span5 fs-9 text-danger position-absolute d-none">Invalid password</span>
+                    <input class="input-date form-control mb-4 w-100" type="date" >
+                    <button class="form-button btn btn-primary btn-lg  w-100" type="submit">ENTER</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <section>
+        <!-- <form class="form-2 w-50 border rounded p-3  mx-auto">
+            <div id="carouselExampleDark" class="carousel carousel-dark slide ">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="3" aria-label="Slide 4"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="10000">
+                        <h2 class="carousel1-title">Contact details</h2>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisc.</p>
+                        
+                        
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        
+                        
+                        
+                    </div>
+                    <div class="carousel-item" data-bs-interval="2000">
+                        <img src="/images/Logo.svg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/Logo.svg" class="d-block w-50" alt="...">
+                        
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                
+                
+            </form> -->
+            
+            <!-- <form class="form2 w-50 border rounded p-3  mx-auto">
+                <div class="container">
+                    <ul class="contact-list"> 
+                        <li class="contact-item">
+                            <img class="firstpage mb-5 pt-5" src="./images/firstpage.svg" alt="asdas">
+                            <h2 class="contact-title">Contact details</h2>
+                            <p class="contact__desc mb-5">Lorem ipsum dolor sit amet consectetur adipisc.</p>
+                            <div class="waper">
+                                <label class="input-label inputt">Name</label>
+                                <input class="contact-Name__input contact-Name__input1" type="text" placeholder="John Carter">
+                                <label class="input-label labell">Email</label>
+                                <input class="contact-Name__input contact-Name__input3" type="email" placeholder="Email address">
+                                <label class="input-label labell2">Phone Number</label>
+                                <input class="contact-Name__input contact-Name__input2" type="text" placeholder="(123) 456 - 7890">
+                                <label class="input-label labell3">Company</label>
+                                <input class="contact-Name__input" type="text" placeholder="Company name">
+                            </div>  
+                        </li>
+                        <li>
+                            <h2 class="contact-title">Our services</h2>
+                            <p class="contact-desc mb-5">Please select which service you are interested in.</p>
+                            <button class="develop-button">
+                                <div class="develop__img-wrapper">
+                                    <img src="./images/develop.svg" alt="develop">
+                                </div>
+                                <span>Development</span>
+                            </button>
+                        </li>
+                    </ul>
+                    <div class="button-wrapper">
+                        <button class="back-step">Previous step</button>
+                        <button class="next-step">Next step</button>  
+                    </div>
+                </div>
+            </form>
+        </section> -->
+        
+        <div class="container">
+            <form id="carouselExample" class="carousel slide form2  border rounded p-3   mx-auto ">
+                <ul class="carousel-inner">
+                    <li class="carouselll carousel-item active">
+                        <img class="firstpage mb-5 pt-5" src="./images/firstpage.svg" alt="asdas">
+                        <h2 class="contact-title">Contact details</h2>
+                        <p class="contact__desc mb-5">Lorem ipsum dolor sit amet consectetur adipisc.</p>
+                        <div class="waper">
+                            <label class="input-label inputt">Name</label>
+                            <input class="contact-Name__input1 contact-Name__input" type="text" placeholder="John Carter">
+                            <span class="contact__span contact__span1 d-none text-danger">Error Name</span>
+                            <label class="input-label labell">Email</label>
+                            <input class="contact-Name__input contact-Name__input3 contact-emaill" type="email" placeholder="Email address">
+                            <span class="contact__span contact__span2 d-none text-danger">Error Email</span>
+                            <label class="input-label labell2">Phone Number</label>
+                            <input class="contact-Name__input contact-Name__input2 contact__number" type="number" placeholder="(123) 456 - 7890">
+                            <span class="contact__span contact__span3 d-none text-danger">Invalid Number</span>
+                            <label class="input-label labell3">Company</label>
+                            <input class="contact-Name__input contact__company" type="text" placeholder="Company name">
+                            <span class="contact__span contact__span4 d-none text-danger">no Company</span>
+                        </div> 
+                    </li>
+                    <li class="carousel-item ">
+                        
+                        <img class="second-page mb-5 pb-5" src="./images/second-page.svg" alt="second-page">
+                        <h2 class="contact-title">Our services</h2>
+                        <p class="contact-desc mb-5">Please select which service you are interested in.</p>
+                        <ul class="second-page__list">
+                            <li class="second-page__item mb-3">
+                                <input class="visually-hidden inputit" id="dev" type="radio" name="ism">
+                                <label class="second-page__label labeli labelii" for="dev">
+                                    <img class="second-page__develop" src="./images/coder.svg" alt="develop">
+                                    <span class="develop__desc">Development</span>
+                                </label>
+                                <input type="radio" id="des" class="visually-hidden inputit2" name="ism">
+                                <label class="second-page__label labeli2 labelii" for="des">
+                                    <img class="second-page__develop" src="./images/designer.svg" alt="web-design">
+                                    <span class="develop__desc">Web Design</span>
+                                </label>
+                            </li>
+                            <li class="second-page__item">
+                                <input type="radio" class="visually-hidden inputit3" id="ded" name="ism">
+                                <label class="second-page__label2 labeli3 labelii" for="ded">
+                                    <img src="./images/marketolog.svg" alt="marketolog">
+                                    <span class="develop__desc">Marketing</span>
+                                </label>
+                                <input type="radio" class="visually-hidden inputit4" id="desc" name="ism">
+                                <label class="second-page__label2 labeli4 labelii" for="desc">
+                                    <img src="./images/setters.svg" alt="setters">
+                                    <span class="develop__desc">Other</span>
+                                </label>
+                            </li>
+                        </ul>
+                        
+                    </li>
+                    <li class="carousel-item">
+                        <img class="page3 mb-5 pb-5" src="./images/page3.svg" alt="page3">
+                        <h2 class="contact-title">What’s your project budget?</h2>
+                        <p class="contact-desc mb-4">Please select the project budget range you have in mind.</p>
+                        <div>
+                            <ul class="page3__list">
+                                <li class="page3__item">
+                                    <input type="radio" id="contactChoice1" name="contact" value="email" >
+                                    <label for="contactChoice1">$5.000 - $10.000</label>
+                                </li>
+                                <li class="page3__item">
+                                    <input type="radio" id="contactChoice2" name="contact" value="phone" >
+                                    <label for="contactChoice2">$10.000 - $20.000</label>
+                                </li>
+                                <li class="page3__item">
+                                    <input type="radio" id="contactChoice3" name="contact" value="mail" >
+                                    <label for="contactChoice3">$20.000 - $50.000</label>
+                                </li>
+                                <li class="page3__item">
+                                    <input type="radio" id="contactChoice4" name="contact" value="mail" >
+                                    <label for="contactChoice4">$50000 +</label>
+                                </li>
+                            </ul>
+                        </div>
+                        <div>
+                            
+                        </li>
+                        <li class="carousel-item">
+                            <img class=" mb-5" src="./images/4page.svg" alt="4page">
+                            <img class="pagess mx-auto" src="./images/succes.svg" alt="succes">
+                            <h2 class="contact-title text-center">Submit your quote request</h2>
+                            <p class="contact-desc text-center mb-4">
+                                Please review all the information you previously typed in the past steps, and if all is okay, submit your message to receive a project quote in 24 - 48 hours.
+                            </p>
+                            <button class="last-button">Preview</button>
+                        </li>
+                    </ul>
+                    
+                </form>
+                <div class="flex-wrapper pt-3">
+                    <button class="carousel-control-prev back-step" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+                        next-step
+                    </button>
+                    <button class="carousel-control-next next-step" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+                        Previous step
+                    </button>
+                </div>
+            </div>
+            
+            <div class="divvv">
+                <div class="container">
+                    <h2 class="titleee mb-4 text-center">Project description</h2>
+                    <ul class="last__list w-50 mx-auto"> 
+                        <li class="last__item">NAME: </li>
+                        <li class="last__item">EMAIL: </li>
+                        <li class="last__item">CONTACT: </li>
+                        <li class="last__item">COMPANY:</li>
+                        <li class="last__item">SERVICE:</li>
+                        <li class="last__item">BUDGET: </li>
+                    </ul>
+                </div>
+            </div>
+            
+            
+            
+            
+            
+
+            <script src="./js/main.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous">
+            </script>
+        </body>
+        </html>
